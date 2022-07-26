@@ -61,6 +61,7 @@ body > ul > li > a > span:hover {
     transform: scale(1.2);
 }
 
+
 body > ul > li > a > span > img {
     filter: blur(0);
     -webkit-filter: blur(0);
