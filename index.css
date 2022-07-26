@@ -23,6 +23,7 @@ header > h1 {
     border-radius: 0.7em;
     background-color: transparent;
     color: white;
+    margin-bottom: 2em;
 }
 
 body {
@@ -37,20 +38,25 @@ body > ul {
     padding: 2em;
 }
 
-body > ul > li {
+body > ul > li > a{
     text-align: center;
     text-decoration: none;
     font-size: 2em;
-    padding: 0.2em;
+    padding: 0.5em;
 }
 
-body > ul > li > a {
-    text-decoration: none;
+body > ul > li > a > span {
+    display: block;
     font-family: "Noto Sans Mono", sans-serif;
     color: white;
+    transition: 0.05s;
 }
 
-body > ul > li > a > img {
+body > ul > li > a > span:hover {
+    transform: scale(1.2);
+}
+
+body > ul > li > a > span > img {
     filter: blur(0);
     -webkit-filter: blur(0);
     transform: translateZ(0);
