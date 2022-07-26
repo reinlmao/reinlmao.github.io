@@ -55,6 +55,7 @@ body > ul > li {
     text-align: center;
     padding-top: 2em;
     width: 100%;
+    white-space: nowrap;
 }
 
 body > ul > li > a{
