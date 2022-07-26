@@ -1,0 +1,59 @@
+body, html {
+    margin: 0;
+}
+
+header {
+    margin-top: 2em;
+    text-align: center;
+    color: white;
+    font-family: "Noto Sans Mono", sans-serif;
+}
+
+header > img {
+    width: 10em;
+    height: 10em;
+    border-radius: 100%;
+    border: 3px solid #fac4cb;
+}
+
+header > h1 {
+    display: inline-block;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-radius: 0.7em;
+    background-color: transparent;
+    color: white;
+}
+
+body {
+    background-image: url(./img/space.jpg);
+    background-size: 12em;
+}
+
+body > ul {
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+body > ul > li {
+    text-align: center;
+    text-decoration: none;
+    font-size: 2em;
+    padding: 0.2em;
+}
+
+body > ul > li > a {
+    text-decoration: none;
+    font-family: "Noto Sans Mono", sans-serif;
+    color: white;
+}
+
+body > ul > li > a > img {
+    filter: blur(0);
+    -webkit-filter: blur(0);
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    width: 1em;
+}
