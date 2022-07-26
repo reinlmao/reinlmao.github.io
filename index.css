@@ -32,14 +32,16 @@ body {
 }
 
 body > ul {
+    display: flexbox;
+    max-width: 25%;
     box-sizing: border-box;
     list-style: none;
     margin: 2em auto;
-    padding: 0em;
-    width: 50%;
+    padding: 0%;
 }
 
 body > ul > li {
+    display: flexbox;
     padding: 1em;
     width: 100%;
 }
@@ -48,7 +50,6 @@ body > ul > li > a{
     text-align: center;
     text-decoration: none;
     font-size: 2em;
-    width: 0em;
 }
 
 body > ul > li > a > span {
