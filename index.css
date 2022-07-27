@@ -14,6 +14,7 @@ header > img {
     height: 10em;
     border-radius: 100%;
     border: 3px solid #fac4cb;
+    margin-bottom: -1em;
     animation-name: header-img;
     animation-duration: 16s;
     animation-timing-function: ease-in-out;
