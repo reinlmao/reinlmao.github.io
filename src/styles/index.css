@@ -84,8 +84,17 @@ body > ul > li > a > span > img {
 }
 
 #secret {
+    font-family: "Noto Sans Mono", sans-serif;
     color: black;
     position: absolute;
-    bottom: 1em;
-    right: 1em;
+    bottom: 4em;
+    right: 4em;
+    text-decoration: none;
+    transform: scale(2, 1);
+    transition: 0.1s;
+}
+
+#secret:hover {
+    color: white;
+    transform: scale(2, 2);
 }
