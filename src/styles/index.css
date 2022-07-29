@@ -82,3 +82,10 @@ body > ul > li > a > span > img {
     -webkit-transform: translateZ(0);
     width: 1em;
 }
+
+#secret {
+    color: black;
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+}
