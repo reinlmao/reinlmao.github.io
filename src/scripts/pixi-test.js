@@ -1,4 +1,4 @@
-import * as PIXI from "@pixi";
+import * as PIXI from "../../node_modules/@pixi";
 
 const app = new PIXI.Application;
 const graphics = new PIXI.Graphics();
