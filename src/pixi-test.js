@@ -1,7 +1,7 @@
-import * as PIXI from "../../node_modules/@pixi";
+import * as PIXI from "../node_modules/pixi.js/dist/browser/pixi.min.mjs";
 
 const app = new PIXI.Application;
 const graphics = new PIXI.Graphics();
 
-graphics.drawCircle(100, 100, 100);
-app.stage.addChild(gr);
+const circle = graphics.drawCircle(100, 100, 25);
+app.stage.addChild(circle);
