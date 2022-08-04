@@ -9,7 +9,7 @@ document.body.appendChild(app.view);
 let graphics = new PIXI.Graphics();
 
 graphics.beginFill(0xffffff);
-let circle = graphics.drawCircle(100, 100, 260);
+let circle = graphics.drawCircle(100, 100, 10);
 graphics.endFill();
 
 app.stage.addChild(graphics);
