@@ -2,9 +2,14 @@ import * as PIXI from "../node_modules/pixi.js/dist/browser/pixi.min.mjs";
 
 let app = new PIXI.Application({
     width: 500,
-    height: 500
+    height: 500,
+    backgroundColor: 0x000000
 });
+document.body.appendChild(app.view);
 let graphics = new PIXI.Graphics();
 
-let circle = graphics.drawCircle(100, 100, 25);
-app.stage.addChild(circle);
+graphics.beginFill(0xffffff);
+let circle = graphics.drawCircle(100, 100, 260);
+graphics.endFill();
+
+app.stage.addChild(graphics);
